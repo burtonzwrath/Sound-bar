@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="marafon.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <button id="button1" data-key="a" class="button">
+        <kbd> press <span class="letter">'A'</span> or Click for </kbd>
+        <span class="sound">clap</span>
+      </button>
+
+      <button id="button2" data-key="s" class="button">
+        <kbd>press <span class="letter">'S'</span> or Click for   </kbd>
+        <span class="sound">triangle</span>
+      </button>
+
+      <button id="button3" data-key="d" class="button">
+        <kbd>press <span class="letter">'D'</span> or Click for  </kbd>
+        <span class="sound">drum</span>
+      </button>
+
+      <audio id="audio1" data-key="a" src="./sounds/clap.mp3"></audio>
+
+      <audio id="audio2" data-key="s" src="./sounds/triangle.mp3"></audio>
+
+      <audio id="audio3" data-key="d" src="./sounds/drum.mp3"></audio>
+    </div>
+  </body>
+  <script src="marafon.js"></script>
+</html>
